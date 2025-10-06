@@ -1,0 +1,27 @@
+/* Подключение шрифта Poppins из Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+/* Сброс стандартных стилей браузера */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #098;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  justify-content: space-between;
+}
